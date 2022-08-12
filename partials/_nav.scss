@@ -1,0 +1,32 @@
+nav {
+    box-shadow: 0 1rem 1rem rgba($black-color, 0.1);
+    display: grid;
+    height: 5rem;
+    place-items: center;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+
+    .container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+            align-items: center;
+            display: flex;
+            gap: 3rem;
+        }
+
+        /* only needed in medium and small devices */
+        button {
+            display: none;
+        }
+
+        a {
+            // color: $white-color;
+            font-size: 0.9rem;
+            font-weight: 400;
+        }
+    }
+}
