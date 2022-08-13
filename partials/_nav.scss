@@ -51,6 +51,15 @@ nav {
                     display: none;
                 }
             }
+
+            ul {
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 0;
+                position: fixed;
+                right: 5%;
+                top: 5rem;
+            }
         }
     }
 }

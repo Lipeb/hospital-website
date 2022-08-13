@@ -156,4 +156,12 @@ nav .container .nav__logo h3 {
     nav .container button#close__nav-btn {
         display: none;
     }
+    nav .container ul {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 0;
+        position: fixed;
+        right: 5%;
+        top: 5rem;
+    }
 } /*# sourceMappingURL=style.css.map */
