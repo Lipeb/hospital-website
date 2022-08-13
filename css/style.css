@@ -158,6 +158,7 @@ nav .container .nav__logo h3 {
     }
     nav .container ul {
         align-items: flex-start;
+        display: none;
         flex-direction: column;
         gap: 0;
         position: fixed;
