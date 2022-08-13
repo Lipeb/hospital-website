@@ -17,4 +17,12 @@
 @mixin gradiantBackground {
     background: linear-gradient(135deg, $primary-color, $primary-color-variant);
     color: $white-color;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        color: $white-color;
+    }
 }
