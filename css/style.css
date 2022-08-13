@@ -175,4 +175,7 @@ nav .container .nav__logo h3 {
         height: 100%;
         padding: 1.5rem 2rem;
     }
+    nav .container ul li.btn {
+        background: #f72585;
+    }
 } /*# sourceMappingURL=style.css.map */
