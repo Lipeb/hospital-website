@@ -35,3 +35,18 @@ nav {
         }
     }
 }
+
+/* ========================== MEDIA QUERIES (MEDIUM DEVICES) ========================== */
+@media screen and (max-width: 1024px) {
+    nav {
+        .container {
+            button {
+                background: transparent;
+                color: $white-color;
+                cursor: pointer;
+                font-size: 2rem;
+                display: inline-block;
+            }
+        }
+    }
+}

@@ -142,4 +142,15 @@ nav .container a {
 }
 nav .container .nav__logo h3 {
     color: #ffffff;
+}
+
+/* ========================== MEDIA QUERIES (MEDIUM DEVICES) ========================== */
+@media screen and (max-width: 1024px) {
+    nav .container button {
+        background: transparent;
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 2rem;
+        display: inline-block;
+    }
 } /*# sourceMappingURL=style.css.map */
