@@ -111,6 +111,8 @@ nav {
     position: fixed;
     width: 100vw;
     z-index: 10;
+    background: linear-gradient(135deg, #480cab, #4cc9f0);
+    color: #ffffff;
 }
 nav .container {
     align-items: center;
