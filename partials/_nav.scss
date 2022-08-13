@@ -59,6 +59,22 @@ nav {
                 position: fixed;
                 right: 5%;
                 top: 5rem;
+
+                li {
+                    width: 100%;
+
+                    a {
+                        background: linear-gradient(
+                            $primary-color-variant,
+                            darken($primary-color-variant, 12%)
+                        );
+                        border-radius: 0;
+                        color: $white-color;
+                        display: block;
+                        height: 100%;
+                        padding: 1.5rem 2rem;
+                    }
+                }
             }
         }
     }
