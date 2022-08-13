@@ -46,6 +46,10 @@ nav {
                 cursor: pointer;
                 font-size: 2rem;
                 display: inline-block;
+
+                &#close__nav-btn {
+                    display: none;
+                }
             }
         }
     }

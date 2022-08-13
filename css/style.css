@@ -153,4 +153,7 @@ nav .container .nav__logo h3 {
         font-size: 2rem;
         display: inline-block;
     }
+    nav .container button#close__nav-btn {
+        display: none;
+    }
 } /*# sourceMappingURL=style.css.map */
