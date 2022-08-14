@@ -161,12 +161,51 @@ nav .container .nav__logo h3 {
         display: none;
         flex-direction: column;
         gap: 0;
+        perspective: 300px;
         position: fixed;
         right: 5%;
         top: 5rem;
     }
     nav .container ul li {
+        -webkit-animation: flipNavItem 300ms ease forwards;
+        animation: flipNavItem 300ms ease forwards;
+        opacity: 0;
+        transform-origin: top;
         width: 100%;
+    }
+    nav .container ul li:nth-child(2) {
+        -webkit-animation-delay: 200ms;
+        animation-delay: 200ms;
+    }
+    nav .container ul li:nth-child(3) {
+        -webkit-animation-delay: 400ms;
+        animation-delay: 400ms;
+    }
+    nav .container ul li:nth-child(4) {
+        -webkit-animation-delay: 600ms;
+        animation-delay: 600ms;
+    }
+    nav .container ul li:nth-child(5) {
+        -webkit-animation-delay: 800ms;
+        animation-delay: 800ms;
+    }
+    @-webkit-keyframes flipNavItem {
+        0% {
+            transform: rotateX(80deg);
+        }
+        100% {
+            opacity: 1;
+            transform: rotateX(0deg);
+        }
+    }
+    @keyframes flipNavItem {
+        0% {
+            transform: rotateX(80deg);
+        }
+        100% {
+            opacity: 1;
+            transform: rotateX(0deg);
+        }
     }
     nav .container ul li a {
         background: linear-gradient(#4cc9f0, #14b8eb);

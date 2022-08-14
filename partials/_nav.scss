@@ -57,12 +57,40 @@ nav {
                 display: none;
                 flex-direction: column;
                 gap: 0;
+                perspective: 300px;
                 position: fixed;
                 right: 5%;
                 top: 5rem;
 
                 li {
+                    animation: flipNavItem 300ms ease forwards;
+                    opacity: 0;
+                    transform-origin: top;
                     width: 100%;
+
+                    &:nth-child(2) {
+                        animation-delay: 200ms;
+                    }
+                    &:nth-child(3) {
+                        animation-delay: 400ms;
+                    }
+                    &:nth-child(4) {
+                        animation-delay: 600ms;
+                    }
+                    &:nth-child(5) {
+                        animation-delay: 800ms;
+                    }
+
+                    @keyframes flipNavItem {
+                        0% {
+                            transform: rotateX(80deg);
+                        }
+
+                        100% {
+                            opacity: 1;
+                            transform: rotateX(0deg);
+                        }
+                    }
 
                     a {
                         background: linear-gradient(
