@@ -1,0 +1,30 @@
+header {
+    @include gradiantBackground;
+    display: grid;
+    height: 100vh;
+    overflow: hidden;
+    place-items: center;
+
+    .container {
+        align-items: center;
+        display: grid;
+        gap: 8%;
+        grid-template-columns: 46% 46%;
+        justify-content: space-between;
+        margin-top: 3rem;
+
+        .header__content {
+            h1 {
+                font-size: 3.5rem;
+                letter-spacing: -3px;
+                line-height: 1.1;
+            }
+
+            p {
+                color: $light-color;
+                font-size: 1.1rem;
+                margin: 1rem 0 2rem;
+            }
+        }
+    }
+}

@@ -218,4 +218,37 @@ nav .container .nav__logo h3 {
     nav .container ul li.btn {
         background: #f72585;
     }
+}
+header {
+    background: linear-gradient(135deg, #480cab, #4cc9f0);
+    color: #ffffff;
+    display: grid;
+    height: 100vh;
+    overflow: hidden;
+    place-items: center;
+}
+header h1,
+header h2,
+header h3,
+header h4,
+header h5 {
+    color: #ffffff;
+}
+header .container {
+    align-items: center;
+    display: grid;
+    gap: 8%;
+    grid-template-columns: 46% 46%;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+header .container .header__content h1 {
+    font-size: 3.5rem;
+    letter-spacing: -3px;
+    line-height: 1.1;
+}
+header .container .header__content p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.1rem;
+    margin: 1rem 0 2rem;
 } /*# sourceMappingURL=style.css.map */
