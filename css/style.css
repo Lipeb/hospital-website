@@ -244,6 +244,7 @@ header .container {
 }
 header .container .header__content h1 {
     font-size: 3.5rem;
+    font-weight: 300;
     letter-spacing: -3px;
     line-height: 1.1;
 }
@@ -251,4 +252,32 @@ header .container .header__content p {
     color: rgba(255, 255, 255, 0.7);
     font-size: 1.1rem;
     margin: 1rem 0 2rem;
+}
+
+/* ========================== MEDIA QUERIES (MEDIUM DEVICES) ========================== */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 60vh;
+    }
+    header .container {
+        gap: 1rem;
+    }
+    header .container .header__content h1 {
+        font-size: 2.2rem;
+    }
+}
+/* ========================== MEDIA QUERIES (SMALL DEVICES) ========================== */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+        padding-top: 3rem;
+    }
+    header .container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    header .container .header__content {
+        line-height: 1.4rem;
+        margin: 0.8rem 0 1.5rem;
+    }
 } /*# sourceMappingURL=style.css.map */
