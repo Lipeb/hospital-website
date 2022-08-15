@@ -150,8 +150,8 @@ nav .container .nav__logo h3 {
         background: transparent;
         color: #ffffff;
         cursor: pointer;
-        font-size: 2rem;
         display: inline-block;
+        font-size: 2rem;
     }
     nav .container button#close__nav-btn {
         display: none;
