@@ -280,4 +280,20 @@ header .container .header__content p {
         line-height: 1.4rem;
         margin: 0.8rem 0 1.5rem;
     }
+}
+#services .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+#services .container article {
+    background: linear-gradient(135deg, #480cab, #4cc9f0);
+    color: #ffffff;
+}
+#services .container article h1,
+#services .container article h2,
+#services .container article h3,
+#services .container article h4,
+#services .container article h5 {
+    color: #ffffff;
 } /*# sourceMappingURL=style.css.map */
