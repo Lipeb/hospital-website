@@ -313,4 +313,28 @@ header .container .header__content p {
 }
 #services .container article div h4 {
     margin-bottom: 1rem;
+}
+
+/* ========================== MEDIA QUERIES (MEDIUM DEVICES) ========================== */
+@media screen and (max-width: 1024px) {
+    #services .container {
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+    }
+    #services .container article {
+        gap: 0.8rem;
+        padding: 1.2rem;
+    }
+    #services .container article:hover {
+        margin: 0;
+    }
+}
+/* ========================== MEDIA QUERIES (SMALL DEVICES) ========================== */
+@media screen and (max-width: 600px) {
+    #services .container {
+        grid-template-columns: 1fr;
+    }
+    #services .container article div h4 {
+        margin-bottom: 0.8rem;
+    }
 } /*# sourceMappingURL=style.css.map */
