@@ -513,4 +513,28 @@ header .container .header__content p {
     height: -moz-fit-content;
     height: fit-content;
     padding: 0.8rem;
+}
+#appointment .container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+#appointment .container form .form__group label {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+#appointment .container form .form__group input,
+#appointment .container form .form__group textarea,
+#appointment .container form .form__group select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #ffffff;
+    border-radius: 0.4rem;
+    display: block;
+    padding: 0.85rem 1rem;
+    resize: none;
+    width: 100%;
 } /*# sourceMappingURL=style.css.map */

@@ -30,5 +30,32 @@
                 }
             }
         }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.4rem;
+
+            .form__group {
+                label {
+                    display: inline-block;
+                    font-size: 0.85rem;
+                    font-weight: 600;
+                    margin-bottom: 0.4rem;
+                }
+
+                input,
+                textarea,
+                select {
+                    appearance: none;
+                    background: $white-color;
+                    border-radius: 0.4rem;
+                    display: block;
+                    padding: 0.85rem 1rem;
+                    resize: none;
+                    width: 100%;
+                }
+            }
+        }
     }
 }
