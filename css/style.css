@@ -458,7 +458,7 @@ header .container .header__content p {
 #testimonials .container article h5 {
     color: #ffffff;
 }
-#testimonials .container article .avatar {
+#testimonials .container article .patient .avatar {
     aspect-ratio: 1/1;
     border-radius: 50%;
     overflow: hidden;
