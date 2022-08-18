@@ -1,0 +1,24 @@
+#appointment {
+    .container {
+        display: grid;
+        gap: 6%;
+        grid-template-columns: 47% 47%;
+
+        .info {
+            p {
+                margin: 0.5rem 0 2rem;
+            }
+
+            article {
+                display: flex;
+                gap: 1.5rem;
+                margin-bottom: 1.5rem;
+
+                small {
+                    display: block;
+                    margin-top: 0.4rem;
+                }
+            }
+        }
+    }
+}
