@@ -537,4 +537,16 @@ header .container .header__content p {
     padding: 0.85rem 1rem;
     resize: none;
     width: 100%;
+}
+
+/* ========================== MEDIA QUERIES (SMALL DEVICES) ========================== */
+@media screen and (max-width: 600px) {
+    #appointment .container {
+        gap: 2rem;
+        grid-template-columns: 1fr;
+    }
+    #appointment .container .info h2,
+    #appointment .container .info p {
+        text-align: center;
+    }
 } /*# sourceMappingURL=style.css.map */

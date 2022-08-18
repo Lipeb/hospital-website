@@ -59,3 +59,20 @@
         }
     }
 }
+
+/* ========================== MEDIA QUERIES (SMALL DEVICES) ========================== */
+@media screen and (max-width: 600px) {
+    #appointment {
+        .container {
+            gap: 2rem;
+            grid-template-columns: 1fr;
+
+            .info {
+                h2,
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
