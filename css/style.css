@@ -443,6 +443,10 @@ header .container .header__content p {
 .swiper {
     width: 82%;
 }
+.swiper .swiper-wrapper {
+    /* brings swiper pagination down */
+    margin-bottom: 4rem;
+}
 .swiper .swiper-wrapper .swiper-slide {
     background: linear-gradient(135deg, #480cab, #4cc9f0);
     color: #ffffff;

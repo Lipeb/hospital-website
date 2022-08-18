@@ -2,6 +2,9 @@
     width: $container-lg;
 
     .swiper-wrapper {
+        /* brings swiper pagination down */
+        margin-bottom: 4rem;
+
         .swiper-slide {
             @include gradiantBackground;
             border-radius: 1rem;
