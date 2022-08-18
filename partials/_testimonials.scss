@@ -1,0 +1,13 @@
+#testimonials {
+    width: $container-lg;
+
+    .container {
+        article {
+            @include gradiantBackground;
+            border-radius: 1rem;
+            cursor: default;
+            font-size: 0.9rem;
+            padding: 1.5rem 2rem;
+        }
+    }
+}
