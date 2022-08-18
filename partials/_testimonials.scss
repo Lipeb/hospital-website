@@ -1,21 +1,40 @@
-#testimonials {
+.swiper {
     width: $container-lg;
 
-    .container {
-        article {
+    .swiper-wrapper {
+        .swiper-slide {
             @include gradiantBackground;
             border-radius: 1rem;
             cursor: default;
             font-size: 0.9rem;
             padding: 1.5rem 2rem;
 
+            p {
+                margin-bottom: 1.5rem;
+            }
+
             .patient {
+                align-items: center;
+                display: flex;
+                gap: 1rem;
+
                 .avatar {
                     aspect-ratio: 1/1;
                     border-radius: 50%;
                     overflow: hidden;
                     width: 2.5rem;
                 }
+            }
+        }
+    }
+}
+
+/* ========================== MEDIA QUERIES (SMALL DEVICES) ========================== */
+@media screen and (max-width: 600px) {
+    .swiper {
+        .swiper-wrapper {
+            .swiper-slide {
+                padding: 1.5rem;
             }
         }
     }
