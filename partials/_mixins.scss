@@ -1,4 +1,4 @@
-@mixin button($textColor: $white-color, $backgroundColor: $secundary-color) {
+@mixin button($textColor: $white-color, $backgroundColor: $secondary-color) {
     background: $backgroundColor;
     border-radius: 0.4rem;
     color: $textColor;

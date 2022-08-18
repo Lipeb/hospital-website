@@ -502,4 +502,15 @@ header .container .header__content p {
 #appointment .container .info article small {
     display: block;
     margin-top: 0.4rem;
+}
+#appointment .container .info article .info__icon {
+    background: #f72585;
+    border-radius: 50%;
+    color: #ffffff;
+    display: flex;
+    font-size: 1.2rem;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 0.8rem;
 } /*# sourceMappingURL=style.css.map */
