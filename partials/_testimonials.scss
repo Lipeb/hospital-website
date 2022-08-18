@@ -27,6 +27,10 @@
             }
         }
     }
+
+    .swiper-pagination-bullet {
+        background: $primary-color;
+    }
 }
 
 /* ========================== MEDIA QUERIES (SMALL DEVICES) ========================== */

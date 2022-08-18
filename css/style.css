@@ -472,6 +472,9 @@ header .container .header__content p {
     overflow: hidden;
     width: 2.5rem;
 }
+.swiper .swiper-pagination-bullet {
+    background: #480cab;
+}
 
 /* ========================== MEDIA QUERIES (SMALL DEVICES) ========================== */
 @media screen and (max-width: 600px) {
