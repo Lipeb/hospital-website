@@ -8,6 +8,13 @@
             cursor: default;
             font-size: 0.9rem;
             padding: 1.5rem 2rem;
+
+            .avatar {
+                aspect-ratio: 1/1;
+                border-radius: 50%;
+                overflow: hidden;
+                width: 2.5rem;
+            }
         }
     }
 }

@@ -457,4 +457,10 @@ header .container .header__content p {
 #testimonials .container article h4,
 #testimonials .container article h5 {
     color: #ffffff;
+}
+#testimonials .container article .avatar {
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 2.5rem;
 } /*# sourceMappingURL=style.css.map */
