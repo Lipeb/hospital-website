@@ -16,6 +16,15 @@ const closeNav = () => {
 
 closeNavBtn.addEventListener('click', closeNav);
 
+// close nav menu when a menu item is closed
+if (window.innerWidth < 1024) {
+    document.querySelectorAll('nav__Items li a').forEach((navItem) => {
+        navItem.addEventListener('click', () => {
+            closeNav();
+        });
+    });
+}
+
 // TESTIMONIALS SECTION (swiper js)
 var swiper = new Swiper('.mySwiper', {
     slidesPerView: 1,
