@@ -162,6 +162,12 @@ nav .container .nav__logo h3 {
 
 /* ========================== MEDIA QUERIES (MEDIUM DEVICES) ========================== */
 @media screen and (max-width: 1024px) {
+    nav {
+        /* navbar style on scroll using JS */
+    }
+    nav.window-scroll .container a {
+        color: #ffffff;
+    }
     nav .container button {
         background: transparent;
         color: #ffffff;
