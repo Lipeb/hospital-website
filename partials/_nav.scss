@@ -8,6 +8,28 @@ nav {
     z-index: 10;
     @include gradiantBackground;
 
+    /* navbar style on scroll using JS */
+    &.window-scroll {
+        background-color: $white-color;
+        .container {
+            button {
+                color: $black-color;
+            }
+
+            a {
+                color: $black-color;
+
+                & > h3 {
+                    color: $black-color;
+                }
+
+                &.btn {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
     .container {
         align-items: center;
         display: flex;

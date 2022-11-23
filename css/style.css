@@ -113,12 +113,28 @@ nav {
     z-index: 10;
     background: linear-gradient(135deg, #480cab, #4cc9f0);
     color: #ffffff;
+    /* navbar style on scroll using JS */
 }
 nav h1,
 nav h2,
 nav h3,
 nav h4,
 nav h5 {
+    color: #ffffff;
+}
+nav.window-scroll {
+    background-color: #ffffff;
+}
+nav.window-scroll .container button {
+    color: #0c031b;
+}
+nav.window-scroll .container a {
+    color: #0c031b;
+}
+nav.window-scroll .container a > h3 {
+    color: #0c031b;
+}
+nav.window-scroll .container a.btn {
     color: #ffffff;
 }
 nav .container {
