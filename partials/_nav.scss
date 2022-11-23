@@ -61,6 +61,14 @@ nav {
 /* ========================== MEDIA QUERIES (MEDIUM DEVICES) ========================== */
 @media screen and (max-width: 1024px) {
     nav {
+        /* navbar style on scroll using JS */
+        &.window-scroll {
+            .container {
+                a {
+                    color: $white-color;
+                }
+            }
+        }
         .container {
             button {
                 background: transparent;
